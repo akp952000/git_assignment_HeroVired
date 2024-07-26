@@ -26,7 +26,13 @@ git merge dev
 git push origin main
 **Create a release for version 1 on GitHub:**
 Navigate to the releases page on GitHub and create a new release with tag v1.0.
-### Step d: Implement the Square Root Feature
+### Step d: Add Classmates as Collaborators
+**Navigate to the repository settings:**
+Go to the "Settings" tab of your repository.
+**Add collaborators:**
+Click "Collaborators & teams" in the sidebar.
+Invite classmates by entering their GitHub username or email and sending the invitation.
+### Step e: Implement the Square Root Feature
 **Create a new branch feature/sqrt:**
 git checkout -b feature/sqrt
 **Implement the square root function in calculator.py:**
@@ -36,7 +42,7 @@ return math.sqrt(x)
 git add calculator.py
 git commit -m "Implement square root feature"
 git push origin feature/sqrt
-### Step e: Fix a Critical Bug
+### Step f: Fix a Critical Bug
 **Fix the bug in calculator.py:**
 def divide(self, a, b):
     if b == 0:
@@ -49,19 +55,19 @@ git push origin dev
 git checkout main
 git merge dev
 git push origin main
-### Step f: Keep feature/sqrt Branch Up-to-Date
+### Step g: Keep feature/sqrt Branch Up-to-Date
 **Switch back to feature/sqrt and rebase onto dev:**
 git checkout feature/sqrt
-### Step g: Create a Pull Request
+### Step h: Create a Pull Request
 **Create a pull request targeting the main branch and request a code review.**
-### Step h: Address Review Feedback
+### Step i: Address Review Feedback
 **Make any necessary changes based on the review feedback, and push the updates.**
-### Step i: Merge feature/sqrt into dev and Test
+### Step j: Merge feature/sqrt into dev and Test
 **Merge the feature/sqrt branch into dev and test the application:**
 git checkout dev
 git merge feature/sqrt
 git push origin dev
-### Step j: Finalize and Create Version 2 Release
+### Step k: Finalize and Create Version 2 Release
 **Merge dev into main and create a version 2 release on GitHub:**
 git checkout main
 git merge dev
