@@ -52,5 +52,21 @@ git push origin main
 ### Step f: Keep feature/sqrt Branch Up-to-Date
 **Switch back to feature/sqrt and rebase onto dev:**
 git checkout feature/sqrt
-
+### Step g: Create a Pull Request
+**Create a pull request targeting the main branch and request a code review.**
+### Step h: Address Review Feedback
+**Make any necessary changes based on the review feedback, and push the updates.**
+### Step i: Merge feature/sqrt into dev and Test
+**Merge the feature/sqrt branch into dev and test the application:**
+git checkout dev
+git merge feature/sqrt
+git push origin dev
+### Step j: Finalize and Create Version 2 Release
+**Merge dev into main and create a version 2 release on GitHub:**
+git checkout main
+git merge dev
+git push origin main
+**Create a new release with tag v2.0 on GitHub.**
+### Conclusion
+The CalculatorPlus application now includes the new square root feature and has addressed the critical bug in the divide function. The version 2 release is now available.
 
