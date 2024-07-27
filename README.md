@@ -8,7 +8,7 @@ CalculatorPlus is a Python application that provides basic arithmetic operations
 ## Assignment Steps
 
 ### Step a: Create a Repository
-**Create a repository named `git_assignment_HeroVired` on GitHub.**
+***Create a repository named `git_assignment_HeroVired` on GitHub.***
 
 ### Step b: Create a `dev` Branch and Add Initial Code
 **Clone the repository and create a `dev` branch:**
@@ -56,7 +56,7 @@ git checkout main
 git merge dev
 git push origin main
 ### Step g: Keep feature/sqrt Branch Up-to-Date
-**Switch back to feature/sqrt and rebase onto dev:**
+***Switch back to feature/sqrt and rebase onto dev:***
 git checkout feature/sqrt
 ### Step h: Create a Pull Request
 **Create a pull request targeting the main branch and request a code review.**
