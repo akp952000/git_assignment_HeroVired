@@ -3,21 +3,21 @@
 
 ## Overview
 
-*CalculatorPlus is a Python application that provides basic arithmetic operations, such as addition, subtraction, multiplication, and division. It now also includes a feature for calculating the square root of a number.
+CalculatorPlus is a Python application that provides basic arithmetic operations, such as addition, subtraction, multiplication, and division. It now also includes a feature for calculating the square root of a number.
 
 ## Assignment Steps
 
 ### Step a: Create a Repository
-*Create a repository named `git_assignment_HeroVired` on GitHub.
+Create a repository named `git_assignment_HeroVired` on GitHub.
 
 ### Step b: Create a `dev` Branch and Add Initial Code
 #### Clone the repository and create a `dev` branch:
-*git clone https://github.com/<your-username>/git_assignment_HeroVired.git
-*cd git_assignment_HeroVired
-*git checkout -b dev
-*git add calculator.py
-*git commit -m "Add basic arithmetic operations and skeleton for square root feature"
-*git push origin dev
+git clone https://github.com/<your-username>/git_assignment_HeroVired.git<br>
+cd git_assignment_HeroVired
+git checkout -b dev
+git add calculator.py
+git commit -m "Add basic arithmetic operations and skeleton for square root feature"
+git push origin dev
 
 ### Step c: Merge dev into main and Release Version 1
 #### Switch to main branch and merge dev:
