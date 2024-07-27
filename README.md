@@ -75,8 +75,8 @@ def divide(self, a, b):
 #### Merge dev into main and create a version 2 release on GitHub:
 - git checkout main<br>
 - git merge dev<br>
--git push origin main<br>
--Create a new release with tag v2.0 on GitHub.<br>
+- git push origin main<br>
+- Create a new release with tag v2.0 on GitHub.<br>
 ## 3.Conclusion
 The CalculatorPlus application now includes the new square root feature and has addressed the critical bug in the divide function. The version 2 release is now available.
 
