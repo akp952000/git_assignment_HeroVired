@@ -36,6 +36,8 @@ Invite classmates by entering their GitHub username or email and sending the inv
 #### Create a new branch feature/sqrt:
 git checkout -b feature/sqrt<br>
 #### Implement the square root function in calculator.py:
+```
+```
 def square_root(self, x):
 return math.sqrt(x)
 #### Commit and push the changes:
@@ -44,6 +46,8 @@ git commit -m "Implement square root feature"<br>
 git push origin feature/sqrt<br>
 ### Step f: Fix a Critical Bug
 #### Fix the bug in calculator.py:
+```
+```
 def divide(self, a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero.")
