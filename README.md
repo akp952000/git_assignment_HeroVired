@@ -87,7 +87,7 @@ The CalculatorPlus application now includes the new square root feature and has 
 ## 2.Stash Changes for Circle Area Feature
 **Before committing the changes, stash them to save the incomplete feature implementation:**
 - git stash
-## 3.Verify that the working directory is clean:
+## 3.Verify that the working directory is clean
 - git status
 ## 4.Create a New Branch for Rectangle Area Feature
 **Create a new branch named feature/rectangle-area to work on the rectangle area feature:**
