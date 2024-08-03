@@ -80,3 +80,44 @@ def divide(self, a, b):
 ## 3.Conclusion
 The CalculatorPlus application now includes the new square root feature and has addressed the critical bug in the divide function. The version 2 release is now available.
 
+# geometry-calculator
+## 1.Create a New Branch
+**Create a new branch named feature/circle-area to work on the circle area feature:**
+- git checkout -b feature/circle-area
+## 2.Stash Changes for Circle Area Feature
+**Before committing the changes, stash them to save the incomplete feature implementation:**
+- git stash
+## 3.Verify that the working directory is clean:
+- git status
+## 4.Create a New Branch for Rectangle Area Feature
+**Create a new branch named feature/rectangle-area to work on the rectangle area feature:**
+- git checkout -b feature/rectangle-area
+## 5.Stash Changes for Rectangle Area Feature
+**Before committing the changes, stash them to save the incomplete feature implementation:**
+- git stash
+## 6.Verify that the working directory is clean
+- git status
+## 7.Switch Back to Circle Area Branch
+**Switch back to the feature/circle-area branch to continue working on the circle area feature:**
+- git checkout feature/circle-area
+## 8.Retrieve the stashed changes
+- git stash pop
+## 9.Commit and Push Circle Area Feature
+**Commit and push the changes to the feature/circle-area branch**
+- git add .<br>
+- git commit -m "Complete circle area feature"<br>
+- git push origin feature/circle-area<br>
+## 10.Switch Back to Rectangle Area Branch
+**Switch back to the feature/rectangle-area branch to continue working on the rectangle area feature**
+- git checkout feature/rectangle-area
+## 11.Retrieve the stashed changes:
+- git stash pop
+## 12.Commit and Push Rectangle Area Feature
+**Commit and push the changes to the feature/rectangle-area branch**
+- git add .<br>
+- git commit -m "Complete rectangle area feature"<br>
+- git push origin feature/rectangle-area<br>
+## 13.Create Pull Requests
+- Create pull requests to the dev branch for both features.
+## 14.Review and Merge
+- Have another team member or reviewer review your pull requests. After receiving approval, merge both pull requests into the dev branch.
